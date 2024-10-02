@@ -1,0 +1,202 @@
+body {
+    font-family: 'Georgia', serif; /* Fonte serifada para um toque literário */
+    background-image: url(../img/bandeiras-de-portugal-e-do-brasil-no-conceito-de-relacionamento-politico-de-superficie-rachada_764664-31025.avif);
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Estilos para o header */
+header {
+    background-color: rgb(19, 170, 19); /* Camada verde */
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    position: relative;
+    text-align: center; /* Centraliza o texto do h1 */
+
+}
+.logo img {
+    max-width: 150px; /* Limita o tamanho da logo */
+}
+.conteudo img {
+    max-width: 350px; /* Limita o tamanho da logo */
+}
+.imagem-pt {
+    position: absolute;
+    top: 0; /* Distância do topo */
+    right: 0; /* Distância da direita */
+    margin: 10px; /* Espaçamento opcional */
+}
+.imagem-br {
+    position: absolute;
+    top: 0; /* Distância do topo */
+    left: 0; /* Distância da direita */
+    margin: 10px; /* Espaçamento opcional */
+}
+.logo-pt {
+    max-width: 150px;
+    position: absolute;
+    top: 0; /* Distância do topo */
+    right: 0; /* Distância da direita */
+    margin: 10px;
+}
+.logo-br {
+    max-width: 150px;
+    position: absolute;
+    top: 0; /* Distância do topo */
+    left: 0; /* Distância da direita */
+    margin: 10px;
+}
+nav {
+    background-color: #003c0a; /* Azul mais claro */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os links */
+}
+
+nav li {
+    margin: 0 15px; /* Espaço entre os links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s; /* Efeito suave na mudança de fundo */
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo claro ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.conteudo {
+    padding: 20px;
+    text-align: center;
+    margin: 20px; /* Margem ao redor da seção */
+    border: 1px solid #000000; /* Borda suave ao redor do conteúdo */
+    background-color: #a2ff90; /* Azul claro */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+h2 {
+    font-size: 2.5em; /* Tamanho do título */
+    margin: 10px 0; /* Margens do título */
+}
+
+h3 {
+    font-size: 1.5em; /* Tamanho do subtítulo */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin: 10px 0; /* Margens do subtítulo */
+}
+
+h4 {
+    font-size: 1.2em; /* Tamanho da frase final */
+    margin: 20px 0; /* Margens da frase final */
+    color: #006a07; /* Cor do texto da frase final */
+}
+h6 {
+    font-size: 0.1em; /* Tamanho da frase final */
+    margin: 20px 0; /* Margens da frase final */
+    color: #006a0700; /* Cor do texto da frase final */
+}
+
+footer {
+    background-color: #039f00; /* Mesma cor do cabeçalho */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Permite que o footer fique embaixo */
+    bottom: 0;
+    width: 100%; /* Largura total */
+}
+
+footer p {
+    margin: 0; /* Remove margens padrão */
+    font-size: 0.9em; /* Tamanho da fonte do footer */
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+.exercise-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+ 
+.exercise-card {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+.exercise-card h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+ 
+.exercise-card p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+ 
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ 
+button:hover {
+    background-color: #218838;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #45a049;
+}
